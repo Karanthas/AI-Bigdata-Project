@@ -1,0 +1,47 @@
+# Local planning, reviews, and course materials.
+/plan/
+/review/
+/project-requirement/
+
+# Agent runtime state.
+/.omx/
+
+# Raw delivery records and archives stay local; retain the dictionary and source docs.
+/data/Meituan-INFORMS-TSL-Research-Challenge/*.csv
+/data/Meituan-INFORMS-TSL-Research-Challenge/*.zip
+
+# Regenerable order-level scores and currently empty result placeholders.
+/results/dashboard_order_scores.csv
+/results/model_comparison.csv
+/results/capacity_comparison.csv
+
+# Python environments, bytecode, and tool caches.
+/.venv/
+/venv/
+/env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local credentials and environment settings.
+.env
+.env.*
+!.env.example
+
+# Editor, operating-system, and temporary files.
+.idea/
+.vscode/
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+/tmp/
+/temp/
